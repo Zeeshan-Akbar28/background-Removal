@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 20px;
+}
+.drop_zone {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: white;
+  background-image: url("../upload.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  background-position: center 28px;
+}
+.drop_zone > p {
+  margin: auto;
+}
+.selected--image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+.image {
+  border: 1 px solid gray;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
+.image img {
+  width: 100%;
+}
+.btn--run {
+  text-align: center;
+  width: 100px;
+  padding: 10px 20px;
+  background-color: blue;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
